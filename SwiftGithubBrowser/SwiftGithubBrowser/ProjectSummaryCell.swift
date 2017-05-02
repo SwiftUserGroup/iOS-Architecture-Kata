@@ -11,7 +11,7 @@ import UIKit
 class ProjectSummaryCell: UITableViewCell {
 
     @IBOutlet var projectName: UILabel!
-    @IBOutlet var projectID: UILabel!
+    @IBOutlet var projectDescription: UILabel!
     @IBOutlet var projectStars: UILabel!
 
 

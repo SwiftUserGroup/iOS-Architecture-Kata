@@ -44,7 +44,7 @@ class ProjectsListViewController: UITableViewController {
         let project = self.datasource[indexPath.row]
 
         cell.projectName.text = "\(project.name)"
-        cell.projectID.text = "ID: \(project.id)"
+        cell.projectDescription.text = "\(project.description)"
         cell.projectStars.text = "Star count: \(project.stars)"
 
         return cell

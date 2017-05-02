@@ -26,12 +26,13 @@ class GitHubNetworkClient {
             let projects = json["items"].arrayValue.map({ (json: JSON) -> ProjectSummary? in
                 guard let id = json["id"].int,
                     let name = json["name"].string,
-                    let stars = json["stargazers_count"].int
+                    let stars = json["stargazers_count"].int,
+                    let description = json["description"].string
                     else {
                         return nil
                 }
 
-                return ProjectSummary(id: id, name: name, stars: stars)
+                return ProjectSummary(id: id, description: description, name: name, stars: stars)
             }).flatMap(){$0}
 
             onCompletion(projects, err)

@@ -10,6 +10,7 @@ import Foundation
 
 struct ProjectSummary {
     let id: Int
+    let description: String
     let name: String
     let stars: Int
 }

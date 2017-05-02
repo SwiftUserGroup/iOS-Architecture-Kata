@@ -13,4 +13,5 @@ struct ProjectSummary {
     let description: String
     let name: String
     let stars: Int
+    let publicURL: URL
 }

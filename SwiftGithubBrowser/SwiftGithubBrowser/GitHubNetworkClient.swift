@@ -27,12 +27,15 @@ class GitHubNetworkClient {
                 guard let id = json["id"].int,
                     let name = json["name"].string,
                     let stars = json["stargazers_count"].int,
-                    let description = json["description"].string
+                    let description = json["description"].string,
+                    let urlString = json["html_url"].string,
+                    let url =  URL(string: urlString)
                     else {
                         return nil
                 }
 
-                return ProjectSummary(id: id, description: description, name: name, stars: stars)
+                return ProjectSummary(id: id, description: description, name: name, stars: stars, publicURL: url)
+
             }).flatMap(){$0}
 
             onCompletion(projects, err)

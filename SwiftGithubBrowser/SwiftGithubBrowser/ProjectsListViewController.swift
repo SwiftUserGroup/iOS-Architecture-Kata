@@ -33,6 +33,15 @@ class ProjectsListViewController: UITableViewController {
     }
 
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let detailVC: ProjectDetailViewController = segue.destination as! ProjectDetailViewController
+
+        if let selectedIndexPath = self.tableView.indexPathForSelectedRow {
+            let selectedProject = self.datasource[selectedIndexPath.row]
+            detailVC.urlToFetch = selectedProject.publicURL
+        }
+    }
+
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.datasource.count

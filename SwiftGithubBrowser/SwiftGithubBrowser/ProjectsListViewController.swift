@@ -7,12 +7,24 @@
 //
 
 import UIKit
+import SwiftyJSON
 
 class ProjectsListViewController: UITableViewController {
 
+
+
+    private var datasource: [ProjectSummary] = []
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        //Fetch items
+        GitHubNetworkClient.instance.getSwiftProjects { (projects: [ProjectSummary], error: Error?) in
+
+            self.datasource = projects
+            self.tableView.reloadData()
+        }
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,7 +35,7 @@ class ProjectsListViewController: UITableViewController {
 
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return self.datasource.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

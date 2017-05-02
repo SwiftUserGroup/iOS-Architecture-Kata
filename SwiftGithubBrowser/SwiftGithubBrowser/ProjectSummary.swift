@@ -8,6 +8,8 @@
 
 import Foundation
 
-struct ProjectEnum {
-
+struct ProjectSummary {
+    let id: Int
+    let name: String
+    let stars: Int
 }

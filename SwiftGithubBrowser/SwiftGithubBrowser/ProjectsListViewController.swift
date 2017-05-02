@@ -39,7 +39,14 @@ class ProjectsListViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ProjectListCell", for: indexPath)
+        let cell: ProjectSummaryCell = tableView.dequeueReusableCell(withIdentifier: "ProjectListCell", for: indexPath) as! ProjectSummaryCell
+
+        let project = self.datasource[indexPath.row]
+
+        cell.projectName.text = "\(project.name)"
+        cell.projectID.text = "ID: \(project.id)"
+        cell.projectStars.text = "Star count: \(project.stars)"
+
         return cell
     }
 

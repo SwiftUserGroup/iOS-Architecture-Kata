@@ -16,6 +16,7 @@
 		2DF899231EB931B800BEF5F3 /* ProjectSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF899221EB931B800BEF5F3 /* ProjectSummary.swift */; };
 		2DF899251EB931D200BEF5F3 /* ProjectDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF899241EB931D200BEF5F3 /* ProjectDetails.swift */; };
 		2DF899291EB9324700BEF5F3 /* GitHubNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF899281EB9324700BEF5F3 /* GitHubNetworkClient.swift */; };
+		2DF8992C1EB93D5D00BEF5F3 /* ProjectSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF8992B1EB93D5D00BEF5F3 /* ProjectSummaryCell.swift */; };
 		89DB858430338AA612B4AFCD /* Pods_SwiftGithubBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E97A473DFFD9CC98A83EFD /* Pods_SwiftGithubBrowser.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		2DF899221EB931B800BEF5F3 /* ProjectSummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectSummary.swift; sourceTree = "<group>"; };
 		2DF899241EB931D200BEF5F3 /* ProjectDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDetails.swift; sourceTree = "<group>"; };
 		2DF899281EB9324700BEF5F3 /* GitHubNetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubNetworkClient.swift; sourceTree = "<group>"; };
+		2DF8992B1EB93D5D00BEF5F3 /* ProjectSummaryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectSummaryCell.swift; sourceTree = "<group>"; };
 		AD14C30384239EA06A13A1E8 /* Pods-SwiftGithubBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGithubBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGithubBrowser/Pods-SwiftGithubBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 		CAF891CC815F0995E948C4F8 /* Pods-SwiftGithubBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGithubBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGithubBrowser/Pods-SwiftGithubBrowser.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +74,7 @@
 				2DEC46E01EB9271E00A22CEE /* AppDelegate.swift */,
 				2DF899211EB9319700BEF5F3 /* Models */,
 				2DF899261EB931F000BEF5F3 /* ViewControllers */,
+				2DF8992A1EB93D4800BEF5F3 /* Cells */,
 				2DF899271EB9321D00BEF5F3 /* Network */,
 				2DEC46E41EB9271E00A22CEE /* Main.storyboard */,
 				2DEC46E71EB9271E00A22CEE /* Assets.xcassets */,
@@ -105,6 +108,14 @@
 				2DF899281EB9324700BEF5F3 /* GitHubNetworkClient.swift */,
 			);
 			name = Network;
+			sourceTree = "<group>";
+		};
+		2DF8992A1EB93D4800BEF5F3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2DF8992B1EB93D5D00BEF5F3 /* ProjectSummaryCell.swift */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 		5C4C74A4A8A0640DC3BDDECE /* Frameworks */ = {
@@ -247,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DF8992C1EB93D5D00BEF5F3 /* ProjectSummaryCell.swift in Sources */,
 				2DF899291EB9324700BEF5F3 /* GitHubNetworkClient.swift in Sources */,
 				2DF899231EB931B800BEF5F3 /* ProjectSummary.swift in Sources */,
 				2DEC46E31EB9271E00A22CEE /* ProjectsListViewController.swift in Sources */,

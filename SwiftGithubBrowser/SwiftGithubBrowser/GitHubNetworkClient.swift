@@ -38,7 +38,9 @@ class GitHubNetworkClient {
 
             }).flatMap(){$0}
 
-            onCompletion(projects, err)
+            DispatchQueue.main.async {
+                onCompletion(projects, err)
+            }
         })
     }
 

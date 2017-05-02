@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DEAE5D81EB92D5200F4D1C4 /* ProjectDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEAE5D71EB92D5200F4D1C4 /* ProjectDetailViewController.swift */; };
 		2DEC46E11EB9271E00A22CEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC46E01EB9271E00A22CEE /* AppDelegate.swift */; };
 		2DEC46E31EB9271E00A22CEE /* ProjectsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC46E21EB9271E00A22CEE /* ProjectsListViewController.swift */; };
 		2DEC46E61EB9271E00A22CEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DEC46E41EB9271E00A22CEE /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DEAE5D71EB92D5200F4D1C4 /* ProjectDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDetailViewController.swift; sourceTree = "<group>"; };
 		2DEC46DD1EB9271E00A22CEE /* SwiftGithubBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGithubBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DEC46E01EB9271E00A22CEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DEC46E21EB9271E00A22CEE /* ProjectsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsListViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				2DEC46E01EB9271E00A22CEE /* AppDelegate.swift */,
 				2DEC46E21EB9271E00A22CEE /* ProjectsListViewController.swift */,
 				2DEC46E41EB9271E00A22CEE /* Main.storyboard */,
+				2DEAE5D71EB92D5200F4D1C4 /* ProjectDetailViewController.swift */,
 				2DEC46E71EB9271E00A22CEE /* Assets.xcassets */,
 				2DEC46E91EB9271E00A22CEE /* LaunchScreen.storyboard */,
 				2DEC46EC1EB9271E00A22CEE /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DEC46E31EB9271E00A22CEE /* ProjectsListViewController.swift in Sources */,
+				2DEAE5D81EB92D5200F4D1C4 /* ProjectDetailViewController.swift in Sources */,
 				2DEC46E11EB9271E00A22CEE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +305,7 @@
 				2DEC46F11EB9271E00A22CEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7W2-E0-8hJ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7gX-vB-UJC">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -13,13 +13,13 @@
         <!--Project List-->
         <scene sceneID="rX6-gT-m8T">
             <objects>
-                <tableViewController title="Project List" id="Wkb-Wu-h04" customClass="ProjectsListViewController" customModule="SwiftGithubBrowser" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Project List" id="Wkb-Wu-h04" customClass="ProjectsListViewController" customModule="iOS_Architecture_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="ONV-75-o8I">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ProjectListCell" rowHeight="100" id="poE-gI-TEW" customClass="ProjectSummaryCell" customModule="SwiftGithubBrowser" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ProjectListCell" rowHeight="100" id="poE-gI-TEW" customClass="ProjectSummaryCell" customModule="iOS_Architecture_Demo" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="poE-gI-TEW" id="S2k-CD-a0Y">
@@ -75,22 +75,22 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RUm-HU-6xf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1016.8" y="122.78860569715144"/>
+            <point key="canvasLocation" x="1956" y="122.78860569715144"/>
         </scene>
         <!--Project Detail View Controller-->
         <scene sceneID="FYi-Hz-c2l">
             <objects>
-                <viewController id="cNc-yi-get" customClass="ProjectDetailViewController" customModule="SwiftGithubBrowser" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cNc-yi-get" customClass="ProjectDetailViewController" customModule="iOS_Architecture_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vZN-xa-K5K"/>
                         <viewControllerLayoutGuide type="bottom" id="aHO-GM-gS9"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" misplaced="YES" id="Bl8-4L-LNC">
+                    <view key="view" contentMode="scaleToFill" id="Bl8-4L-LNC">
                         <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z5t-1e-kr3">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
@@ -110,42 +110,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m2m-w4-dzi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1950" y="123"/>
+            <point key="canvasLocation" x="2888.8000000000002" y="122.78860569715144"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="bW5-Ps-GqX">
-            <objects>
-                <viewController id="SZI-yn-Dqr" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="EkH-FN-kz3"/>
-                        <viewControllerLayoutGuide type="bottom" id="Gtj-bN-5yU"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Deo-LF-CKc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="58k-CB-f8H">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="58k-CB-f8H" secondAttribute="trailing" id="Fyk-Mh-EGe"/>
-                            <constraint firstItem="58k-CB-f8H" firstAttribute="leading" secondItem="Deo-LF-CKc" secondAttribute="leading" id="ig6-5o-LIp"/>
-                            <constraint firstItem="58k-CB-f8H" firstAttribute="top" secondItem="EkH-FN-kz3" secondAttribute="bottom" id="okm-2L-zA1"/>
-                            <constraint firstItem="Gtj-bN-5yU" firstAttribute="top" secondItem="58k-CB-f8H" secondAttribute="bottom" id="puU-TT-joc"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fBh-MR-syG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2830" y="88"/>
-        </scene>
-        <!--Navigation Controller-->
+        <!--GitHub Browser-->
         <scene sceneID="q8P-cS-QhA">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7W2-E0-8hJ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="GitHub Browser" id="yo3-eD-Dyw"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="eIM-lR-EFo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -157,6 +128,23 @@
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d9W-IL-U3J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1016.8" y="122.78860569715144"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="s3a-XW-oyW">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="7gX-vB-UJC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="3aY-y4-w2a">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="7W2-E0-8hJ" kind="relationship" relationship="viewControllers" id="fVI-tU-f8J"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sdp-oe-QuC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="77.599999999999994" y="122.78860569715144"/>
         </scene>

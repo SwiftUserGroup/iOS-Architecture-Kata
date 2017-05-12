@@ -33,6 +33,7 @@
 		2DAA1F3B1EC5ED1600F4CA09 /* GitHubNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA1F3A1EC5ED1600F4CA09 /* GitHubNetworkClient.swift */; };
 		2DAA1F3C1EC5ED1600F4CA09 /* GitHubNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA1F3A1EC5ED1600F4CA09 /* GitHubNetworkClient.swift */; };
 		2DAA1F3D1EC5ED1600F4CA09 /* GitHubNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA1F3A1EC5ED1600F4CA09 /* GitHubNetworkClient.swift */; };
+		2DAA1F3F1EC5EF1C00F4CA09 /* WizardFirstStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA1F3E1EC5EF1C00F4CA09 /* WizardFirstStepViewController.swift */; };
 		D3577E818DEDE31BCBBF4712 /* Pods_iOS_Architecture_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6549CB69C5231240E960EA59 /* Pods_iOS_Architecture_DemoTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +74,7 @@
 		2DAA1F2E1EC5ECE100F4CA09 /* ProjectDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDetailViewController.swift; sourceTree = "<group>"; };
 		2DAA1F351EC5ECF700F4CA09 /* ProjectSummaryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectSummaryCell.swift; sourceTree = "<group>"; };
 		2DAA1F3A1EC5ED1600F4CA09 /* GitHubNetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubNetworkClient.swift; sourceTree = "<group>"; };
+		2DAA1F3E1EC5EF1C00F4CA09 /* WizardFirstStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WizardFirstStepViewController.swift; sourceTree = "<group>"; };
 		37724B53965182F582BEC831 /* Pods-iOS Architecture Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Architecture Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Architecture Demo/Pods-iOS Architecture Demo.release.xcconfig"; sourceTree = "<group>"; };
 		5AD611379FFEDC463588CFAE /* Pods_iOS_Architecture_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Architecture_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6549CB69C5231240E960EA59 /* Pods_iOS_Architecture_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Architecture_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,6 +189,7 @@
 			children = (
 				2DAA1F2D1EC5ECE100F4CA09 /* ProjectsListViewController.swift */,
 				2DAA1F2E1EC5ECE100F4CA09 /* ProjectDetailViewController.swift */,
+				2DAA1F3E1EC5EF1C00F4CA09 /* WizardFirstStepViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -523,6 +526,7 @@
 			files = (
 				2DAA1F361EC5ECF700F4CA09 /* ProjectSummaryCell.swift in Sources */,
 				2DAA1F271EC5ECCD00F4CA09 /* ProjectSummary.swift in Sources */,
+				2DAA1F3F1EC5EF1C00F4CA09 /* WizardFirstStepViewController.swift in Sources */,
 				2DAA1F3B1EC5ED1600F4CA09 /* GitHubNetworkClient.swift in Sources */,
 				2DAA1EF01EC5EB8B00F4CA09 /* AppDelegate.swift in Sources */,
 				2DAA1F321EC5ECE100F4CA09 /* ProjectDetailViewController.swift in Sources */,

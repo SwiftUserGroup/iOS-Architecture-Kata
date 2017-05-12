@@ -2,7 +2,6 @@
 //  AppDelegate.swift
 //  iOS Architecture Demo
 //
-//  Created by Calo, Ignazio on 12/05/2017.
 //  Copyright © 2017 Italy Swift User Group. All rights reserved.
 //
 

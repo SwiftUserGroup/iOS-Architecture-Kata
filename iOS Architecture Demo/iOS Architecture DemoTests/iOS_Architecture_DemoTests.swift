@@ -2,7 +2,6 @@
 //  iOS_Architecture_DemoTests.swift
 //  iOS Architecture DemoTests
 //
-//  Created by Calo, Ignazio on 12/05/2017.
 //  Copyright © 2017 Italy Swift User Group. All rights reserved.
 //
 

@@ -1,0 +1,18 @@
+platform :ios, '10.3'
+
+target 'iOS Architecture Demo' do
+  use_frameworks!
+
+  pod 'SwiftyJSON'
+
+  target 'iOS Architecture DemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'iOS Architecture DemoUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

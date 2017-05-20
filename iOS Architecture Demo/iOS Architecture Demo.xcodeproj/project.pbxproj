@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		08353A059E8A131177C1FABC /* Pods_iOS_Architecture_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DE3ED038FF44FA332C669C /* Pods_iOS_Architecture_Demo.framework */; };
 		0F0155315F6CA924765BD336 /* Pods_iOS_Architecture_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD611379FFEDC463588CFAE /* Pods_iOS_Architecture_DemoUITests.framework */; };
+		2D4253E41ED0D09300FF9E9E /* WizardSecondStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4253E31ED0D09300FF9E9E /* WizardSecondStepViewController.swift */; };
+		2D4253E61ED0D42F00FF9E9E /* WizardLastStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4253E51ED0D42F00FF9E9E /* WizardLastStepViewController.swift */; };
+		2D4253E81ED0D7B300FF9E9E /* WizardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4253E71ED0D7B300FF9E9E /* WizardModel.swift */; };
+		2D4253EA1ED0E1E700FF9E9E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4253E91ED0E1E700FF9E9E /* Extension.swift */; };
 		2DAA1EF01EC5EB8B00F4CA09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA1EEF1EC5EB8B00F4CA09 /* AppDelegate.swift */; };
 		2DAA1EF71EC5EB8B00F4CA09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DAA1EF51EC5EB8B00F4CA09 /* Main.storyboard */; };
 		2DAA1EF91EC5EB8B00F4CA09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DAA1EF81EC5EB8B00F4CA09 /* Assets.xcassets */; };
@@ -56,6 +60,10 @@
 
 /* Begin PBXFileReference section */
 		27ACC2CB1E071F252391CC64 /* Pods-iOS Architecture DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Architecture DemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Architecture DemoUITests/Pods-iOS Architecture DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2D4253E31ED0D09300FF9E9E /* WizardSecondStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WizardSecondStepViewController.swift; sourceTree = "<group>"; };
+		2D4253E51ED0D42F00FF9E9E /* WizardLastStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WizardLastStepViewController.swift; sourceTree = "<group>"; };
+		2D4253E71ED0D7B300FF9E9E /* WizardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WizardModel.swift; sourceTree = "<group>"; };
+		2D4253E91ED0E1E700FF9E9E /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		2DAA1EEC1EC5EB8B00F4CA09 /* iOS Architecture Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Architecture Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DAA1EEF1EC5EB8B00F4CA09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DAA1EF61EC5EB8B00F4CA09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -190,6 +198,10 @@
 				2DAA1F2D1EC5ECE100F4CA09 /* ProjectsListViewController.swift */,
 				2DAA1F2E1EC5ECE100F4CA09 /* ProjectDetailViewController.swift */,
 				2DAA1F3E1EC5EF1C00F4CA09 /* WizardFirstStepViewController.swift */,
+				2D4253E31ED0D09300FF9E9E /* WizardSecondStepViewController.swift */,
+				2D4253E51ED0D42F00FF9E9E /* WizardLastStepViewController.swift */,
+				2D4253E71ED0D7B300FF9E9E /* WizardModel.swift */,
+				2D4253E91ED0E1E700FF9E9E /* Extension.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -526,12 +538,16 @@
 			files = (
 				2DAA1F361EC5ECF700F4CA09 /* ProjectSummaryCell.swift in Sources */,
 				2DAA1F271EC5ECCD00F4CA09 /* ProjectSummary.swift in Sources */,
+				2D4253E41ED0D09300FF9E9E /* WizardSecondStepViewController.swift in Sources */,
+				2D4253EA1ED0E1E700FF9E9E /* Extension.swift in Sources */,
 				2DAA1F3F1EC5EF1C00F4CA09 /* WizardFirstStepViewController.swift in Sources */,
 				2DAA1F3B1EC5ED1600F4CA09 /* GitHubNetworkClient.swift in Sources */,
 				2DAA1EF01EC5EB8B00F4CA09 /* AppDelegate.swift in Sources */,
+				2D4253E81ED0D7B300FF9E9E /* WizardModel.swift in Sources */,
 				2DAA1F321EC5ECE100F4CA09 /* ProjectDetailViewController.swift in Sources */,
 				2DAA1F2A1EC5ECCD00F4CA09 /* ProjectDetails.swift in Sources */,
 				2DAA1F2F1EC5ECE100F4CA09 /* ProjectsListViewController.swift in Sources */,
+				2D4253E61ED0D42F00FF9E9E /* WizardLastStepViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,16 +15,43 @@ class WizardFirstStepViewController: UIViewController {
 
     @IBOutlet weak var nextPageButton: UIButton!
 
+    var model: WizardModel? = nil
+
 
 
     @IBAction func gotoNextPage(_ sender: Any) {
+        if model == nil {
+            model = WizardModel(firstText: numericField.text!,
+                                secondText: letterField.text!,
+                                thirdText: limitedSizeField.text!, textSecondStep: nil)
+        } else {
+            if model!.firstText != numericField.text! ||
+                model!.secondText != letterField.text! ||
+                model!.thirdText != limitedSizeField.text {
+
+                model!.increaseUpdateCounter()
+            }
+
+            model?.firstText = numericField.text!
+            model?.secondText = letterField.text!
+            model?.thirdText = limitedSizeField.text!
+        }
+
+
         self.performSegue(withIdentifier: "show_second_page", sender: nil)
     }
 
 
+    func reset() {
+        self.model = nil
+        self.letterField.text = nil
+        self.numericField.text = nil
+        self.limitedSizeField.text = nil
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        hideKeyboardWhenTappedAround()
         [numericField, letterField, limitedSizeField].forEach {
             $0?.addTarget(self, action: #selector(textUpated), for: .editingChanged)
         }
@@ -77,9 +104,18 @@ class WizardFirstStepViewController: UIViewController {
     func disableNetxPageNavitagion() {
         nextPageButton.isEnabled = false
     }
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let dest = segue.destination as? WizardSecondStepViewController {
+            dest.model = model
+        }
+
+    }
 }
 
 
 extension WizardFirstStepViewController: UITextFieldDelegate {
     
 }
+
+

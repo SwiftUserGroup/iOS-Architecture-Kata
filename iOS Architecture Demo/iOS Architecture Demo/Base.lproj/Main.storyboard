@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7gX-vB-UJC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7gX-vB-UJC">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -90,7 +90,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z5t-1e-kr3">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
@@ -144,7 +144,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDo-ay-nfG">
-                                <rect key="frame" x="30.5" y="93" width="314.5" height="58.5"/>
+                                <rect key="frame" x="30.5" y="94" width="314.5" height="58.5"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">To procede to the next page
@@ -158,7 +158,7 @@ follow the instructions.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="A string that contains only numbers" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nzi-2x-7GQ">
-                                <rect key="frame" x="62" y="242" width="250.5" height="30"/>
+                                <rect key="frame" x="62" y="243" width="250.5" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -167,7 +167,7 @@ follow the instructions.</string>
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="A String that contains only letters" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jQ8-vr-3NV">
-                                <rect key="frame" x="62" y="292" width="250.5" height="30"/>
+                                <rect key="frame" x="62" y="293" width="250.5" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -176,7 +176,7 @@ follow the instructions.</string>
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSW-Ag-ylV">
-                                <rect key="frame" x="97" y="525" width="180" height="62"/>
+                                <rect key="frame" x="97" y="526" width="180" height="62"/>
                                 <color key="backgroundColor" red="0.25490196079999999" green="0.51372549020000002" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="180" id="39P-2j-78E"/>
@@ -189,13 +189,13 @@ follow the instructions.</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter in each UITextField a valid string" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsf-U7-j8p">
-                                <rect key="frame" x="42" y="195" width="291" height="21"/>
+                                <rect key="frame" x="42" y="196" width="291" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="A String of exactly 5 chars" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hpL-gh-joe">
-                                <rect key="frame" x="62" y="340" width="250.5" height="30"/>
+                                <rect key="frame" x="62" y="341" width="250.5" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -206,11 +206,11 @@ follow the instructions.</string>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="4gO-I4-oKl" firstAttribute="top" secondItem="GSW-Ag-ylV" secondAttribute="bottom" constant="31" id="0R0-S5-TCd"/>
+                            <constraint firstItem="4gO-I4-oKl" firstAttribute="top" secondItem="GSW-Ag-ylV" secondAttribute="bottom" constant="30" id="0R0-S5-TCd"/>
                             <constraint firstItem="hpL-gh-joe" firstAttribute="height" secondItem="jQ8-vr-3NV" secondAttribute="height" id="6xA-Bt-FXM"/>
                             <constraint firstItem="jQ8-vr-3NV" firstAttribute="centerX" secondItem="nzi-2x-7GQ" secondAttribute="centerX" id="7Ph-4H-UUg"/>
                             <constraint firstItem="nzi-2x-7GQ" firstAttribute="centerX" secondItem="pVw-Aj-GP4" secondAttribute="centerX" id="8MH-Fa-Qgx"/>
-                            <constraint firstItem="jDo-ay-nfG" firstAttribute="top" secondItem="abI-kd-RVY" secondAttribute="bottom" constant="29" id="F8j-la-1eS"/>
+                            <constraint firstItem="jDo-ay-nfG" firstAttribute="top" secondItem="abI-kd-RVY" secondAttribute="bottom" constant="30" id="F8j-la-1eS"/>
                             <constraint firstItem="jQ8-vr-3NV" firstAttribute="width" secondItem="nzi-2x-7GQ" secondAttribute="width" id="M8M-JO-neE"/>
                             <constraint firstItem="jQ8-vr-3NV" firstAttribute="height" secondItem="nzi-2x-7GQ" secondAttribute="height" id="Rtt-aP-K9c"/>
                             <constraint firstItem="jQ8-vr-3NV" firstAttribute="top" secondItem="nzi-2x-7GQ" secondAttribute="bottom" constant="20" id="TGH-U9-Z4a"/>
@@ -237,10 +237,10 @@ follow the instructions.</string>
             </objects>
             <point key="canvasLocation" x="1956" y="787.55622188905556"/>
         </scene>
-        <!--View Controller-->
+        <!--Step 2/3-->
         <scene sceneID="MpX-dM-yYh">
             <objects>
-                <viewController id="VPF-td-nE5" sceneMemberID="viewController">
+                <viewController title="Step 2/3" id="VPF-td-nE5" customClass="WizardSecondStepViewController" customModule="iOS_Architecture_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="n88-bI-0vk"/>
                         <viewControllerLayoutGuide type="bottom" id="Xys-gD-Uzw"/>
@@ -248,12 +248,263 @@ follow the instructions.</string>
                     <view key="view" contentMode="scaleToFill" id="EEA-4R-4ZS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UC2-Mt-v6x">
+                                <rect key="frame" x="43" y="94" width="289.5" height="29.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="To procede insert any text">
+                                        <attributes>
+                                            <font key="NSFont" size="25" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hlw-EJ-lzI">
+                                <rect key="frame" x="20.5" y="163.5" width="335" height="41"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Going back to the previous step must not reset the inserted text.">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Any text" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JQx-f5-CIs">
+                                <rect key="frame" x="20" y="230" width="335" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJE-Mm-okM">
+                                <rect key="frame" x="98" y="526" width="180" height="62"/>
+                                <color key="backgroundColor" red="0.25490196079999999" green="0.51372549020000002" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="WwG-MO-OdD"/>
+                                    <constraint firstAttribute="width" constant="180" id="fZB-0l-IUO"/>
+                                </constraints>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Go To Last Step"/>
+                                <connections>
+                                    <action selector="gotoNextPage:" destination="VPF-td-nE5" eventType="touchUpInside" id="TjG-il-n3u"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JQx-f5-CIs" firstAttribute="width" secondItem="Hlw-EJ-lzI" secondAttribute="width" id="1JT-LH-l5m"/>
+                            <constraint firstItem="JQx-f5-CIs" firstAttribute="centerX" secondItem="Hlw-EJ-lzI" secondAttribute="centerX" id="1r8-t1-3be"/>
+                            <constraint firstItem="Hlw-EJ-lzI" firstAttribute="width" secondItem="EEA-4R-4ZS" secondAttribute="width" constant="-40" id="SCH-5p-Xv4"/>
+                            <constraint firstItem="Hlw-EJ-lzI" firstAttribute="top" secondItem="UC2-Mt-v6x" secondAttribute="bottom" constant="40" id="URi-hl-Wel"/>
+                            <constraint firstItem="JQx-f5-CIs" firstAttribute="top" secondItem="Hlw-EJ-lzI" secondAttribute="bottom" constant="25.5" id="Ys0-BX-sdw"/>
+                            <constraint firstItem="Hlw-EJ-lzI" firstAttribute="centerX" secondItem="UC2-Mt-v6x" secondAttribute="centerX" id="bnm-uS-gdF"/>
+                            <constraint firstItem="Xys-gD-Uzw" firstAttribute="top" secondItem="dJE-Mm-okM" secondAttribute="bottom" constant="30" id="cQs-sK-c8c"/>
+                            <constraint firstItem="UC2-Mt-v6x" firstAttribute="centerX" secondItem="EEA-4R-4ZS" secondAttribute="centerX" id="gzq-lX-rQi"/>
+                            <constraint firstItem="Hlw-EJ-lzI" firstAttribute="centerX" secondItem="EEA-4R-4ZS" secondAttribute="centerX" id="hAI-QV-Ull"/>
+                            <constraint firstItem="dJE-Mm-okM" firstAttribute="centerX" secondItem="EEA-4R-4ZS" secondAttribute="centerX" id="jjc-Pp-ndl"/>
+                            <constraint firstItem="UC2-Mt-v6x" firstAttribute="top" secondItem="n88-bI-0vk" secondAttribute="bottom" constant="30" id="kWJ-Jz-vOI"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="nextPageButton" destination="dJE-Mm-okM" id="SgA-R6-CpJ"/>
+                        <outlet property="textField" destination="JQx-f5-CIs" id="ayC-vs-3Hb"/>
+                        <segue destination="Fwo-vk-0B1" kind="show" identifier="show_third_page" id="TbP-2P-vN8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x37-xb-53y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2889" y="788"/>
+            <point key="canvasLocation" x="2888.8000000000002" y="787.55622188905556"/>
+        </scene>
+        <!--Step 3/3-->
+        <scene sceneID="Ogd-Vw-Rte">
+            <objects>
+                <viewController title="Step 3/3" id="Fwo-vk-0B1" customClass="WizardLastStepViewController" customModule="iOS_Architecture_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="psS-vf-o1e"/>
+                        <viewControllerLayoutGuide type="bottom" id="sTX-YR-5JI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="U0i-2y-Duu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhq-8F-AdM">
+                                <rect key="frame" x="97" y="526" width="180" height="62"/>
+                                <color key="backgroundColor" red="0.25490196079999999" green="0.51372549020000002" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="2d0-wV-7bw"/>
+                                    <constraint firstAttribute="width" constant="180" id="HgR-Ef-W7A"/>
+                                </constraints>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Restart"/>
+                                <connections>
+                                    <action selector="restart:" destination="Fwo-vk-0B1" eventType="touchUpInside" id="NUg-Rc-GiN"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y0r-ML-CCh">
+                                <rect key="frame" x="30" y="94" width="315.5" height="29.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="You reached the final screen">
+                                        <attributes>
+                                            <font key="NSFont" size="25" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8PR-bk-ICH">
+                                <rect key="frame" x="20" y="163.5" width="335" height="61"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Show here the strings inserted and the number of time the user went back to the page 1 to edit the data">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="h4X-3c-GOU">
+                                <rect key="frame" x="181.5" y="305" width="11.5" height="150"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgS-F1-RCW">
+                                        <rect key="frame" x="0.0" y="0.0" width="11.5" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Re-u5-Cck">
+                                        <rect key="frame" x="0.0" y="30" width="11.5" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2uF-EW-LB0">
+                                        <rect key="frame" x="0.0" y="60" width="11.5" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYY-Gm-ipl">
+                                        <rect key="frame" x="0.0" y="90" width="11.5" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fli-az-dzf">
+                                        <rect key="frame" x="0.0" y="120" width="11.5" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8PR-bk-ICH" firstAttribute="width" secondItem="U0i-2y-Duu" secondAttribute="width" constant="-40" id="Avq-iF-h6C"/>
+                            <constraint firstItem="Y0r-ML-CCh" firstAttribute="centerX" secondItem="U0i-2y-Duu" secondAttribute="centerX" id="Azf-K8-bFq"/>
+                            <constraint firstItem="hhq-8F-AdM" firstAttribute="centerX" secondItem="U0i-2y-Duu" secondAttribute="centerX" id="BSD-uq-Tgq"/>
+                            <constraint firstItem="h4X-3c-GOU" firstAttribute="centerX" secondItem="U0i-2y-Duu" secondAttribute="centerX" id="BtQ-kE-zyc"/>
+                            <constraint firstItem="8PR-bk-ICH" firstAttribute="centerX" secondItem="U0i-2y-Duu" secondAttribute="centerX" id="Evb-jR-ClT"/>
+                            <constraint firstItem="8PR-bk-ICH" firstAttribute="top" secondItem="Y0r-ML-CCh" secondAttribute="bottom" constant="40" id="Itm-Ff-LZw"/>
+                            <constraint firstItem="h4X-3c-GOU" firstAttribute="top" secondItem="8PR-bk-ICH" secondAttribute="bottom" constant="80.5" id="NCV-FL-GTb"/>
+                            <constraint firstItem="Y0r-ML-CCh" firstAttribute="top" secondItem="psS-vf-o1e" secondAttribute="bottom" constant="30" id="a57-Uv-AlR"/>
+                            <constraint firstItem="sTX-YR-5JI" firstAttribute="top" secondItem="hhq-8F-AdM" secondAttribute="bottom" constant="30" id="iE2-e9-LSx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="editCount" destination="Fli-az-dzf" id="fdY-1E-QlP"/>
+                        <outlet property="firstLabel" destination="cgS-F1-RCW" id="Fpk-Yo-uIb"/>
+                        <outlet property="secondLabel" destination="2Re-u5-Cck" id="O8p-R0-Ajm"/>
+                        <outlet property="secondPage" destination="KYY-Gm-ipl" id="kcz-Xt-ZRv"/>
+                        <outlet property="thirdLabel" destination="2uF-EW-LB0" id="Xf0-j4-gYS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rdo-Co-DTY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3701.5999999999999" y="787.55622188905556"/>
         </scene>
         <!--Wizard-->
         <scene sceneID="oVX-i7-Wxw">
@@ -278,6 +529,7 @@ follow the instructions.</string>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="7gX-vB-UJC" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="3aY-y4-w2a">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
